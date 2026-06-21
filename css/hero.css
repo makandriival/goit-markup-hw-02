@@ -1,0 +1,51 @@
+.hero {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
+.hero-btn {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.11;
+    max-width: 320px;
+  }
+}
