@@ -54,8 +54,7 @@ img {
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .section-title {
@@ -66,13 +65,12 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
+  margin: 0 auto 72px;
 }
 
 @media (max-width: 767px) {
   .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding: 96px 0;
   }
 }
 
@@ -80,7 +78,7 @@ img {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
